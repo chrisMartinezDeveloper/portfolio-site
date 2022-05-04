@@ -2,7 +2,7 @@
   "name": "personal-site",
   "version": "1.0.0",
   "description": "Portfolio site",
-  "default": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
