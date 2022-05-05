@@ -77,59 +77,94 @@
       <p>A UX&#47;UI developer who utilizes simplicity and functionality</p>
     </div>
     <div class="project_container">
-      <a
-        ><img
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Mapty Web App</h2>
+          <p>2022</p>
+        </div>
+        <img
           src="./src/img/mapty-cover.jpg"
           alt="Mapty Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Forkify Web App</h2>
+          <p>2022</p>
+        </div>
+        <img
           src="./src/img/forkify-cover.jpg"
           alt="Forkify Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Lamour Design</h2>
+          <p>2022</p>
+        </div>
+        <img
           src="./src/img/lamour-cover.jpg"
+          alt="Lamour Cover"
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Fournir</h2>
+          <p>2022</p>
+        </div>
+        <img
+          src="./src/img/fournir-cover.jpg"
+          alt="Fournir Cover"
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Capitol BRM</h2>
+          <p>2021</p>
+        </div>
+        <img
+          src="./src/img/capitol-brm-cover.jpg"
+          alt="Capitol BRM Cover"
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>IT Coporate Logo</h2>
+          <p>2020</p>
+        </div>
+        <img
+          src="./src/img/it-logo-cover.jpg"
+          alt="IT Corporate Logo Cover"
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>In The Beginning</h2>
+          <p>2021</p>
+        </div>
+        <img
+          src="./src/img/in-the-beginning-cover.jpg"
+          alt="In The Beginning Cover"
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Sushi Kaiyo</h2>
+          <p>2021</p>
+        </div>
+        <img
+          src="./src/img/sushi-kaiyo-cover.jpg"
+          alt="Sushi Kaiyo Cover"
+        />
+      </a>
+      <a class="project_cover">
+        <div class="text_cover_overlay hidden">
+          <h1>Gradient Study</h2>
+          <p>2021</p>
+        </div>
+        <img
+          src="./src/img/gradient-study-cover.jpg"
           alt="Mapty Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
-          src="./src/img/mapty-cover.jpg"
-          alt="Mapty Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
-          src="./src/img/forkify-cover.jpg"
-          alt="Forkify Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
-          src="./src/img/lamour-cover.jpg"
-          alt="Mapty Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
-          src="./src/img/mapty-cover.jpg"
-          alt="Mapty Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
-          src="./src/img/forkify-cover.jpg"
-          alt="Forkify Cover"
-          class="project_cover"
-      /></a>
-      <a
-        ><img
-          src="./src/img/lamour-cover.jpg"
-          alt="Mapty Cover"
-          class="project_cover"
       /></a>
     </div>
     <div class="footer">
@@ -137,5 +172,17 @@
       <p class="personal_info">TEST</p>
       <p class="copyright">&#169;Copyright Chris Martinez Design 2022</p>
     </div>
+
+    <!-- Script -->
+    <script defer>
+      document.querySelectorAll('.project_cover').forEach(projectCover => {
+        ['mouseover', 'mouseout'].forEach(event => {
+            projectCover.addEventListener(event, function() {
+              projectCover.querySelector('.text_cover_overlay')
+              .classList.toggle('hidden')
+            });
+        })
+      })
+    </script>
   </body>
 </html>
