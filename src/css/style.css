@@ -111,6 +111,7 @@ p {
 .project_cover {
   width: 33%;
   position: relative;
+  /* transition: ease-in 1s; */
 }
 
 .project_cover > img {
@@ -119,10 +120,6 @@ p {
   border-radius: 0.7rem;
   margin: 0rem 0rem 0.2rem 0rem;
 }
-
-/* .project_cover > img:hover {
-  opacity: 7%;
-} */
 
 .text_cover_overlay {
   width: 100%;
