@@ -34,6 +34,7 @@ p {
   box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(12, 12, 12, 1);
   z-index: 2;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -136,12 +137,14 @@ p {
 
 @media screen and (max-width: 800px) {
   .project_container {
-    height: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
   }
 
   .project_cover {
     width: 100%;
     height: 9.7%;
+    margin-bottom: 0.7rem;
   }
 
   .text_cover_overlay > h1 {
