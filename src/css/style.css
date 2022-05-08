@@ -165,7 +165,7 @@ p {
 }
 
 .text_cover_overlay > h1 {
-  color: var(--color-gold);
+/*   color: var(--color-gold); */
   font-size: 2.8vw;
   margin: 0rem;
 }
