@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Chris Martinez"/>
+    <meta name="author" content="Chris Martinez" />
     <meta name="description" content="Chris Martinez Portfolio" />
-    <meta name="keywords" content="HTML, CSS, JavaScript, UI/UX developer, UI/UX, web developer, dveloper, web design, web, website, " />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, UI/UX developer, UI/UX, web developer, dveloper, web design, web, website, "
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
@@ -84,67 +87,49 @@
     <div class="project_container">
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Mapty Web App</h2>
+          <h1>Mapty Web App</h1>
           <p>2022</p>
         </div>
-        <img
-          src="./src/img/mapty-cover.jpg"
-          alt="Mapty Cover"
-        />
+        <img src="./src/img/mapty-cover.jpg" alt="Mapty Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Forkify Web App</h2>
+          <h1>Forkify Web App</h1>
           <p>2022</p>
         </div>
-        <img
-          src="./src/img/forkify-cover.jpg"
-          alt="Forkify Cover"
-        />
+        <img src="./src/img/forkify-cover.jpg" alt="Forkify Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Lamour Design</h2>
+          <h1>Lamour Design</h1>
           <p>2022</p>
         </div>
-        <img
-          src="./src/img/lamour-cover.jpg"
-          alt="Lamour Cover"
-        />
+        <img src="./src/img/lamour-cover.jpg" alt="Lamour Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Fournir</h2>
+          <h1>Fournir</h1>
           <p>2022</p>
         </div>
-        <img
-          src="./src/img/fournir-cover.jpg"
-          alt="Fournir Cover"
-        />
+        <img src="./src/img/fournir-cover.jpg" alt="Fournir Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Capitol BRM</h2>
+          <h1>Capitol BRM</h1>
           <p>2021</p>
         </div>
-        <img
-          src="./src/img/capitol-brm-cover.jpg"
-          alt="Capitol BRM Cover"
-        />
+        <img src="./src/img/capitol-brm-cover.jpg" alt="Capitol BRM Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>IT Coporate Logo</h2>
+          <h1>IT Coporate Logo</h1>
           <p>2020</p>
         </div>
-        <img
-          src="./src/img/it-logo-cover.jpg"
-          alt="IT Corporate Logo Cover"
-        />
+        <img src="./src/img/it-logo-cover.jpg" alt="IT Corporate Logo Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>In The Beginning</h2>
+          <h1>In The Beginning</h1>
           <p>2021</p>
         </div>
         <img
@@ -154,22 +139,17 @@
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Sushi Kaiyo</h2>
+          <h1>Sushi Kaiyo</h1>
           <p>2021</p>
         </div>
-        <img
-          src="./src/img/sushi-kaiyo-cover.jpg"
-          alt="Sushi Kaiyo Cover"
-        />
+        <img src="./src/img/sushi-kaiyo-cover.jpg" alt="Sushi Kaiyo Cover" />
       </a>
       <a class="project_cover">
         <div class="text_cover_overlay hidden">
-          <h1>Gradient Study</h2>
+          <h1>Gradient Study</h1>
           <p>2021</p>
         </div>
-        <img
-          src="./src/img/gradient-study-cover.jpg"
-          alt="Mapty Cover"
+        <img src="./src/img/gradient-study-cover.jpg" alt="Mapty Cover"
       /></a>
     </div>
     <div class="footer">
@@ -190,14 +170,15 @@
 
     <!-- Script -->
     <script defer>
-      document.querySelectorAll('.project_cover').forEach(projectCover => {
-        ['mouseover', 'mouseout'].forEach(event => {
-            projectCover.addEventListener(event, function() {
-              projectCover.querySelector('.text_cover_overlay')
-              .classList.toggle('hidden')
-            });
-        })
-      })
+      document.querySelectorAll(".project_cover").forEach((projectCover) => {
+        ["mouseover", "mouseout"].forEach((event) => {
+          projectCover.addEventListener(event, function () {
+            projectCover
+              .querySelector(".text_cover_overlay")
+              .classList.toggle("hidden");
+          });
+        });
+      });
     </script>
   </body>
 </html>
