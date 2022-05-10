@@ -40,7 +40,7 @@
         <div class="hamburger_menu">
           <i class="fa-solid fa-bars"></i>
           <ul class="menu hidden_menu">
-            <li class="menu_item"><a>Work</a></li>
+            <li class="menu_item active"><a>Work</a></li>
             <li class="menu_item"><a>About Me</a></li>
             <li class="menu_item"><a>Contact</a></li>
             <li class="menu_item icons">
@@ -228,6 +228,39 @@
               menu.classList.contains("hidden_menu") ? "" : "32%";
           });
       }
+
+      window.addEventListener("resize", function () {
+        if (window.innerWidth <= 1000) {
+          document
+            .querySelector(".page_link_container")
+            .classList.add("hidden");
+          document.querySelector(".icon_container").classList.add("hidden");
+
+          document
+            .querySelector(".hamburger_menu_container")
+            .classList.remove("hidden");
+          document
+            .querySelector(".fa-bars")
+            .addEventListener("click", function () {
+              const menu = document.querySelector(".menu");
+              menu.classList.toggle("hidden_menu");
+
+              // document.querySelector(".nav_contaienr").style.height =
+              document.querySelector(".nav_container").style.height =
+                menu.classList.contains("hidden_menu") ? "" : "32%";
+            });
+        }
+        if (window.innerWidth > 1000) {
+          document
+            .querySelector(".page_link_container")
+            .classList.remove("hidden");
+          document.querySelector(".icon_container").classList.remove("hidden");
+
+          document
+            .querySelector(".hamburger_menu_container")
+            .classList.add("hidden");
+        }
+      });
     </script>
   </body>
 </html>

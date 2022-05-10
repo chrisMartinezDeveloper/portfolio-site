@@ -114,6 +114,16 @@ p {
 }
 
 .menu_item {
+  color: var(--color-gold);
+  margin-top: 0.6rem;
+}
+
+.menu_item:hover {
+  color: var(--color-offwhite);
+}
+
+.menu_item.active {
+  color: var(--color-offwhite);
   margin-top: 0.6rem;
 }
 
@@ -128,6 +138,10 @@ p {
 .menu_icon {
   color: var(--color-offwhite);
   margin-left: 1.2rem;
+}
+
+.menu_icon:hover {
+  color: var(--color-gold);
 }
 
 .hidden_menu {
