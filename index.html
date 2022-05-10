@@ -36,6 +36,33 @@
   </head>
   <body>
     <div class="nav_container">
+      <div class="hamburger_menu_container hidden">
+        <div class="hamburger_menu">
+          <i class="fa-solid fa-bars"></i>
+          <ul class="menu hidden_menu">
+            <li class="menu_item"><a>Work</a></li>
+            <li class="menu_item"><a>About Me</a></li>
+            <li class="menu_item"><a>Contact</a></li>
+            <li class="menu_item icons">
+              <a href="https://github.com/ChrisMartinezDesign" target="_blank">
+                <i class="fa-brands fa-github menu_icon"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/chrismartinezdesign/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in menu_icon"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/chrismartinezdesign/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram menu_icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
       <div class="nav">
         <div class="page_link_container">
           <ul>
@@ -170,6 +197,7 @@
 
     <!-- Script -->
     <script defer>
+      // Homepage - text overlay animation
       document.querySelectorAll(".project_cover").forEach((projectCover) => {
         ["mouseover", "mouseout"].forEach((event) => {
           projectCover.addEventListener(event, function () {
@@ -179,6 +207,26 @@
           });
         });
       });
+
+      // Smal screen size - nav layout
+      if (window.innerWidth <= 1000) {
+        document.querySelector(".page_link_container").classList.add("hidden");
+        document.querySelector(".icon_container").classList.add("hidden");
+
+        document
+          .querySelector(".hamburger_menu_container")
+          .classList.remove("hidden");
+        document
+          .querySelector(".fa-bars")
+          .addEventListener("click", function () {
+            const menu = document.querySelector(".menu");
+            menu.classList.toggle("hidden_menu");
+
+            // document.querySelector(".nav_contaienr").style.height =
+            document.querySelector(".nav_container").style.height =
+              menu.classList.contains("hidden_menu") ? "" : "32%";
+          });
+      }
     </script>
   </body>
 </html>
