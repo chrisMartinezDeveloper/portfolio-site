@@ -155,6 +155,10 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+  .hamburger_menu {
+    padding: 2.25rem 2.3rem 0rem 0rem;
+  }
+
   .menu {
     margin-top: 2.3rem;
     z-index: 4;
