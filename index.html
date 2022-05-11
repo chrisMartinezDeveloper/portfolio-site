@@ -225,7 +225,7 @@
 
             // document.querySelector(".nav_contaienr").style.height =
             document.querySelector(".nav_container").style.height =
-              menu.classList.contains("hidden_menu") ? "" : "32%";
+              menu.classList.contains("hidden_menu") ? "" : "42%";
           });
       }
 
@@ -246,8 +246,8 @@
               menu.classList.toggle("hidden_menu");
 
               // document.querySelector(".nav_contaienr").style.height =
-              document.querySelector(".nav_container").style.height =
-                menu.classList.contains("hidden_menu") ? "" : "32%";
+              document.querySelector(".nav_container").style.maxHeight =
+                menu.classList.contains("hidden_menu") ? "" : "42%";
             });
         }
         if (window.innerWidth > 1000) {
