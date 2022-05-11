@@ -148,6 +148,20 @@ p {
   display: none;
 }
 
+@media screen and (max-width: 400px) {
+  .menu {
+    margin-top: 2.3rem;
+  }
+
+  .menu_item {
+    font-size: 6vw;
+  }
+
+  .menu_item.icons {
+    margin-top: 2rem;
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .nav {
     position: relative;
