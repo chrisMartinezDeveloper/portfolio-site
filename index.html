@@ -208,57 +208,102 @@
         });
       });
 
-      console.log(window.innerWidth);
-      // Smal screen size - nav layout
-      if (window.innerWidth <= 1000) {
-        document.querySelector(".page_link_container").classList.add("hidden");
-        document.querySelector(".icon_container").classList.add("hidden");
+      // Smal screen size - responsive nav
+      const navContainer = document.querySelector(".nav_container");
+      const pageLinkContainer = document.querySelector(".page_link_container");
+      const iconContainer = document.querySelector(".icon_container");
+      const hamburgerMenuContainer = document.querySelector(
+        ".hamburger_menu_container"
+      );
+      const hamburgerIcon = document.querySelector(".fa-bars");
+      const menu = document.querySelector(".menu");
 
-        document
-          .querySelector(".hamburger_menu_container")
-          .classList.remove("hidden");
-        document
-          .querySelector(".fa-bars")
-          .addEventListener("click", function () {
-            const menu = document.querySelector(".menu");
+      if (window.innerWidth <= 1000) {
+        // Hide page links and icons on nav
+        pageLinkContainer.classList.add("hidden");
+        iconContainer.classList.add("hidden");
+
+        // Display hamburger menu icon
+        hamburgerMenuContainer.classList.remove("hidden");
+
+        // Listen for clicks on the hambruger menu icon
+        hamburgerIcon.addEventListener("click", function () {
+          menu.classList.toggle("hidden_menu");
+
+          // Adjust nav container height for the hamburger menu
+          navContainer.style.height = menu.classList.contains("hidden_menu")
+            ? ""
+            : "14.2rem";
+        });
+
+        // Listen for a screen size larger than 1000px
+        window.addEventListener("resize", function () {
+          if (
+            window.innerWidth <= 1000 ||
+            !pageLinkContainer.classList.contains("hidden") ||
+            !iconContainer.classList.contains("hidden") ||
+            hamburgerMenuContainer.classList.contains("hidden")
+          ) {
+            // Hide page links and icons on nav
+            pageLinkContainer.classList.add("hidden");
+            iconContainer.classList.add("hidden");
+
+            // Display hamburger menu icon
+            hamburgerMenuContainer.classList.remove("hidden");
+          }
+
+          if (window.innerWidth > 1000) {
+            // Display page links and icons
+            pageLinkContainer.classList.remove("hidden");
+            iconContainer.classList.remove("hidden");
+
+            // Hide and close hamburger menu
+            hamburgerMenuContainer.classList.add("hidden");
+            hamburgerMenuContainer
+              .querySelector(".menu")
+              .classList.add("hidden_menu");
+
+            // Reset nav container height
+            navContainer.style.height = "";
+          }
+        });
+      }
+
+      // Large screen size - responsive nav
+      window.addEventListener("resize", function () {
+        if (
+          window.innerWidth <= 1000 ||
+          !pageLinkContainer.classList.contains("hidden") ||
+          !iconContainer.classList.contains("hidden") ||
+          hamburgerMenuContainer.classList.contains("hidden")
+        ) {
+          pageLinkContainer.classList.add("hidden");
+          iconContainer.classList.add("hidden");
+
+          hamburgerMenuContainer.classList.remove("hidden");
+          hamburgerIcon.addEventListener("click", function () {
             menu.classList.toggle("hidden_menu");
 
             // document.querySelector(".nav_contaienr").style.height =
-            document.querySelector(".nav_container").style.height =
-              menu.classList.contains("hidden_menu") ? "" : "42%";
+            navContainer.style.height = menu.classList.contains("hidden_menu")
+              ? ""
+              : "14.2rem";
           });
-      }
-
-      window.addEventListener("resize", function () {
-        if (window.innerWidth <= 1000) {
-          document
-            .querySelector(".page_link_container")
-            .classList.add("hidden");
-          document.querySelector(".icon_container").classList.add("hidden");
-
-          document
-            .querySelector(".hamburger_menu_container")
-            .classList.remove("hidden");
-          document
-            .querySelector(".fa-bars")
-            .addEventListener("click", function () {
-              const menu = document.querySelector(".menu");
-              menu.classList.toggle("hidden_menu");
-
-              // document.querySelector(".nav_contaienr").style.height =
-              document.querySelector(".nav_container").style.maxHeight =
-                menu.classList.contains("hidden_menu") ? "" : "42%";
-            });
         }
-        if (window.innerWidth > 1000) {
-          document
-            .querySelector(".page_link_container")
-            .classList.remove("hidden");
-          document.querySelector(".icon_container").classList.remove("hidden");
 
-          document
-            .querySelector(".hamburger_menu_container")
-            .classList.add("hidden");
+        if (window.innerWidth > 1000) {
+          // Display page links and icons
+          pageLinkContainer.classList.remove("hidden");
+          iconContainer.classList.remove("hidden");
+
+          // Hide and close hamburger menu
+          hamburgerMenuContainer.classList.add("hidden");
+          hamburgerMenuContainer
+            .querySelector(".menu")
+            .classList.add("hidden_menu");
+
+          // Reset nav container height
+          navContainer.style.height = "";
         }
       });
     </script>

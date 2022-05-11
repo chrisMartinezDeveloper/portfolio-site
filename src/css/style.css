@@ -257,8 +257,16 @@ p {
   }
 
   .project_cover {
-    width: 49.7%;
+    width: 49.67%;
     margin-bottom: 0rem;
+  }
+
+  .text_cover_overlay > h1 {
+    font-size: 4.3vw;
+  }
+
+  .text_cover_overlay > p {
+    font-size: 2.63vw;
   }
 }
 
