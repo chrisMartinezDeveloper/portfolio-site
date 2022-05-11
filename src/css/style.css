@@ -151,14 +151,21 @@ p {
 @media screen and (max-width: 500px) {
   .menu {
     margin-top: 2.3rem;
+    z-index: 4;
   }
 
   .menu_item {
-    font-size: 6vw;
+    font-size: 6.8vw;
+    margin-top: 1rem;
   }
 
   .menu_item.icons {
     margin-top: 2rem;
+  }
+
+  .menu_icon {
+    font-size: 5.8vw;
+    margin-left: 1.6rem;
   }
 }
 
