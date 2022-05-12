@@ -41,7 +41,7 @@ p {
   box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(12, 12, 12, 1);
   z-index: 2;
   transition: ease-in 0.3s;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.1rem;
 }
 
 .nav {
@@ -82,7 +82,7 @@ p {
 
 .personal_logo {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .icon_container > ul {
@@ -246,18 +246,17 @@ p {
 }
 
 .project_cover {
-  width: 32.98%;
+  width: 33.11%;
   height: auto;
   position: relative;
   transition: ease-in 0.3s;
-  margin-bottom: 0.4rem;
 }
 
 .project_cover > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 0.7rem;
-  margin: 0rem 0rem 0.2rem 0rem;
+  /* margin: 0rem 0rem 0.2rem 0rem; */
 }
 
 .text_cover_overlay {
@@ -299,7 +298,6 @@ p {
   .project_cover {
     width: 100%;
     height: auto;
-    margin-bottom: 0.4rem;
   }
 
   .text_cover_overlay > h1 {
@@ -317,9 +315,8 @@ p {
   }
 
   .project_cover {
-    width: 49.67%;
+    width: 49.79%;
     height: auto;
-    margin-bottom: 0.314rem;
   }
 
   .text_cover_overlay > h1 {
