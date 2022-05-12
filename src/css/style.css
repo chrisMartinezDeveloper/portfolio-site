@@ -29,6 +29,7 @@ p {
 /* Nav */
 .nav_container {
   width: 100%;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
@@ -103,6 +104,7 @@ p {
 .hamburger_menu_container {
   position: absolute;
   width: 100%;
+  height: auto;
   z-index: 3;
 }
 
@@ -188,6 +190,7 @@ p {
   .nav {
     position: relative;
     width: 100%;
+    height: auto;
     padding: 1.3rem 0rem 0.8rem 0rem;
     justify-content: center;
   }
@@ -199,6 +202,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: auto;
   padding: 7.3rem 0rem 2rem 0rem;
 }
 
@@ -223,6 +227,7 @@ p {
   .header > p {
     font-size: 1.05rem;
     width: 90%;
+    height: auto;
   }
 }
 
@@ -240,6 +245,7 @@ p {
 
 .project_cover {
   width: 32.98%;
+  height: auto;
   position: relative;
   transition: ease-in 0.3s;
 }
@@ -289,6 +295,7 @@ p {
 
   .project_cover {
     width: 100%;
+    height: auto;
   }
 
   .text_cover_overlay > h1 {
@@ -307,6 +314,7 @@ p {
 
   .project_cover {
     width: 49.67%;
+    height: auto;
     margin-bottom: 0rem;
   }
 
@@ -323,6 +331,7 @@ p {
 /* Footer */
 .footer {
   width: 100%;
+  height: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
