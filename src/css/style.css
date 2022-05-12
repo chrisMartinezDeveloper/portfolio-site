@@ -73,8 +73,12 @@ p {
   list-style-type: none;
 }
 
+.personal_logo_container {
+  width: 3.6rem;
+}
+
 .personal_logo {
-  width: 3.5rem;
+  width: 100%;
 }
 
 .icon_container > ul {
