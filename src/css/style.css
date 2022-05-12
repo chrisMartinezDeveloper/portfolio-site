@@ -256,7 +256,6 @@ p {
   width: 100%;
   height: auto;
   border-radius: 0.7rem;
-  /* margin: 0rem 0rem 0.2rem 0rem; */
 }
 
 .text_cover_overlay {
@@ -300,11 +299,6 @@ p {
     height: auto;
   }
 
-  .project_cover > img {
-    width: 100%;
-    height: auto;
-  }
-
   .text_cover_overlay > h1 {
     font-size: 6.5vw;
   }
@@ -343,23 +337,6 @@ p {
   flex-direction: column;
   margin-top: 3rem;
 }
-
-/* .contact_info_container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem 0rem 1.1rem 0rem;
-}
-
-.contact_info_container > i {
-  color: var(--color-gold);
-}
-
-.contact_info {
-  color: var(--color-offwhite);
-  margin: 0rem 0rem 0rem 0.7rem;
-} */
 
 .copyright {
   color: var(--color-gray);
