@@ -300,6 +300,11 @@ p {
     height: auto;
   }
 
+  .project_cover > img {
+    width: 100%;
+    height: auto;
+  }
+
   .text_cover_overlay > h1 {
     font-size: 6.5vw;
   }
