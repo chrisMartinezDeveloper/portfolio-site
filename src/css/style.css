@@ -79,6 +79,7 @@ p {
 
 .personal_logo {
   width: 100%;
+  height: auto;
 }
 
 .icon_container > ul {
@@ -244,6 +245,7 @@ p {
 
 .project_cover > img {
   width: 100%;
+  height: auto;
   border-radius: 0.7rem;
   margin: 0rem 0rem 0.2rem 0rem;
 }
