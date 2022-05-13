@@ -287,6 +287,8 @@ p {
 
 @media screen and (max-width: 800px) {
   .project_container {
+    overflow: hidden;
+    width: 100%;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
@@ -294,8 +296,8 @@ p {
   }
 
   .project_cover {
-    width: 100%;
-    height: auto;
+    width: 90.6vw;
+    height: 64.71vw;
   }
 
   .text_cover_overlay > h1 {
@@ -313,8 +315,8 @@ p {
   }
 
   .project_cover {
-    width: 49.79%;
-    height: auto;
+    width: 45.59vw;
+    height: 32.716vw;
   }
 
   .text_cover_overlay > h1 {
