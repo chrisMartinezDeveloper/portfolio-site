@@ -10,7 +10,7 @@ body {
   background-color: var(--color-charcoal);
   display: flex;
   flex-wrap: wrap;
-  padding: 0rem 3rem 3.5rem 3rem;
+  padding: 0vw 3.2vw 3.5vw 3.3vw;
 }
 
 h1,
@@ -246,14 +246,14 @@ p {
 }
 
 .project_cover {
-  width: 33.11%;
-  height: auto;
+  width: 30.63vw;
+  height: 22.83vw;
   position: relative;
 }
 
 .project_cover > img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 0.7rem;
 }
 
