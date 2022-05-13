@@ -44,7 +44,7 @@ window.addEventListener("resize", function () {
 
     // Hide and close hamburger menu
     hamburgerMenuContainer.classList.add("hidden");
-    menu.classList.add("hidden_menu");
+    menu.classList.add("hidden");
 
     // Reset nav container height
     navContainer.style.height = "";
@@ -54,16 +54,16 @@ window.addEventListener("resize", function () {
 // Hamburger menu icon click listener
 hamburgerIcon.addEventListener("click", function () {
   console.log("Toggle");
-  menu.classList.toggle("hidden_menu");
+  menu.classList.toggle("hidden");
   console.log(menu);
 
   // Adjust nav container height for the hamburger menu
-  navContainer.style.height = menu.classList.contains("hidden_menu")
+  navContainer.style.height = menu.classList.contains("hidden")
     ? ""
     : "14.2rem";
 
   if (window.innerWidth <= 500) {
-    navContainer.style.height = menu.classList.contains("hidden_menu")
+    navContainer.style.height = menu.classList.contains("hidden")
       ? ""
       : "21.5rem";
   }

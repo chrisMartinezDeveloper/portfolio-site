@@ -162,10 +162,6 @@ p {
   color: var(--color-gold);
 }
 
-.hidden_menu {
-  display: none;
-}
-
 @media screen and (max-width: 500px) {
   .hamburger_menu {
     padding: 2.25rem 2.3rem 0rem 0rem;
@@ -344,8 +340,10 @@ p {
 @media screen and (max-width: 580px) {
   .project_cover {
     overflow: hidden;
-    width: 90.705vw;
-    height: calc(90.705vw / 1.34);
+    /* width: 90.705vw;
+    height: calc(90.705vw / 1.34); */
+    width: 100%;
+    height: auto;
     margin-bottom: 0.9vw;
   }
 }
