@@ -247,13 +247,13 @@ p {
 
 .project_cover {
   width: 33.11%;
-  height: calc(770px / 574px * 33.11%);
+  height: auto;
   position: relative;
 }
 
 .project_cover > img {
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 0.7rem;
 }
 
