@@ -297,7 +297,7 @@ p {
 
   .project_cover {
     width: 90.6vw;
-    height: 64.71vw;
+    height: calc(90.6vw / 1.34);
   }
 
   .project_cover > img {
