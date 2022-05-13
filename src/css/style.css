@@ -164,6 +164,11 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+  .personal_logo {
+    width: 100%;
+    height: auto;
+  }
+
   .hamburger_menu {
     padding: 2.25rem 2.3rem 0rem 0rem;
   }
@@ -195,6 +200,11 @@ p {
     height: auto;
     padding: 1.3rem 0rem 0.8rem 0rem;
     justify-content: center;
+  }
+
+  .personal_logo {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -249,7 +259,6 @@ p {
   width: 33.11%;
   height: auto;
   position: relative;
-  /* transition: ease-in 0.3s; */
 }
 
 .project_cover > img {
@@ -299,6 +308,11 @@ p {
     height: auto;
   }
 
+  .project_cover > img {
+    width: 100%;
+    height: auto;
+  }
+
   .text_cover_overlay > h1 {
     font-size: 6.5vw;
   }
@@ -315,6 +329,11 @@ p {
 
   .project_cover {
     width: 49.79%;
+    height: auto;
+  }
+
+  .project_cover > img {
+    width: 100%;
     height: auto;
   }
 
