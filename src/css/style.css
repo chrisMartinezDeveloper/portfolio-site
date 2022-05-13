@@ -113,7 +113,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 5vw 6vw 0vw 0vw;
+  padding: 4.2vw 6vw 0vw 0vw;
 }
 
 .hamburger_menu > i {
