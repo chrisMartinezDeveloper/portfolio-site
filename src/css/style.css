@@ -247,7 +247,7 @@ p {
 
 .project_cover {
   width: 33.11%;
-  height: calc(574.1px / 770px / 33.11%);
+  height: calc(calc(574px / 770px / 33.11%) + 0.02%);
   position: relative;
 }
 
