@@ -325,7 +325,7 @@ p {
 
   .project_cover > img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
   .text_cover_overlay > h1 {
@@ -345,6 +345,12 @@ p {
     width: 100%;
     height: auto;
     margin-bottom: 0.9vw;
+  }
+
+  .project_cover > img {
+    aspect-ratio: attr(width) / attr(height);
+    width: 100%;
+    height: auto;
   }
 }
 
