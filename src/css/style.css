@@ -247,15 +247,15 @@ p {
 }
 
 .project_cover {
-  width: 30.55vw;
-  height: calc(30.55vw / 1.4);
+  width: 33.1%;
+  height: auto;
   position: relative;
-  margin-bottom: 0.35vw;
 }
 
 .project_cover > img {
+  aspect-ratio: attr(width) / attr(height);
   width: 100%;
-  height: 100%;
+  height: auto;
   border-radius: 0.7rem;
 }
 
@@ -293,8 +293,8 @@ p {
   }
 
   .project_cover {
-    width: 45.63vw;
-    height: calc(45.63vw / 1.4);
+    width: 49.837%;
+    height: auto;
   }
 
   .text_cover_overlay > h1 {
@@ -308,7 +308,6 @@ p {
 
 @media screen and (max-width: 800px) {
   .project_container {
-    overflow: hidden;
     width: 100%;
     height: auto;
     justify-content: flex-start;
@@ -318,12 +317,6 @@ p {
   }
 
   .project_cover {
-    width: 90.6vw;
-    height: calc(90.6vw / 1.34);
-    margin-bottom: 0.6vw;
-  }
-
-  .project_cover > img {
     width: 100%;
     height: auto;
   }
@@ -334,23 +327,6 @@ p {
 
   .text_cover_overlay > p {
     font-size: 4vw;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  .project_cover {
-    overflow: hidden;
-    /* width: 90.705vw;
-    height: calc(90.705vw / 1.34); */
-    width: 100%;
-    height: auto;
-    margin-bottom: 0.9vw;
-  }
-
-  .project_cover > img {
-    aspect-ratio: attr(width) / attr(height);
-    width: 100%;
-    height: auto;
   }
 }
 
