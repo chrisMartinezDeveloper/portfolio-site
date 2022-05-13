@@ -247,7 +247,7 @@ p {
 
 .project_cover {
   width: 30.63vw;
-  height: 21.87vw;
+  height: calc(30.63vw / 1.4);
   position: relative;
 }
 
@@ -321,7 +321,7 @@ p {
 
   .project_cover {
     width: 45.59vw;
-    height: 32.716vw;
+    height: calc(45.59vw / 1.4);
   }
 
   .text_cover_overlay > h1 {
