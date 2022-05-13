@@ -40,7 +40,7 @@ p {
   );
   box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(12, 12, 12, 1);
   z-index: 2;
-  transition: ease-in 0.3s;
+  /* transition: ease-in 0.3s; */
   padding-bottom: 0.1rem;
 }
 
@@ -249,7 +249,7 @@ p {
   width: 33.11%;
   height: auto;
   position: relative;
-  transition: ease-in 0.3s;
+  /* transition: ease-in 0.3s; */
 }
 
 .project_cover > img {
