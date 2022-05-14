@@ -1,4 +1,5 @@
 import personalLogo from "../img/personal-logo.png";
+import meetMe from "../../meetMe.html";
 
 ////////////
 // Add Nav
@@ -12,8 +13,7 @@ const navHTML = `
             <li class="menu_item active">
               <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
             </li>
-            <li class="menu_item"><a href="./aboutMe.html">About Me</a></li>
-            <li class="menu_item"><a href="./contact.html">Contact</a></li>
+            <li class="menu_item"><a href="${meetMe}">Meet Me</a></li>
             <li class="menu_item icons">
               <a href="https://github.com/ChrisMartinezDesign" target="_blank">
                 <i class="fa-brands fa-github menu_icon"></i>
@@ -30,6 +30,11 @@ const navHTML = `
               >
                 <i class="fa-brands fa-instagram menu_icon"></i>
               </a>
+              <a
+                href="mailto: chrismartinezdesign@gmail.com"
+                target="_blank"
+                ><i class="fa-solid fa-envelope menu_icon"></i
+              ></a>
             </li>
           </ul>
         </div>
@@ -40,8 +45,7 @@ const navHTML = `
             <li class="page_link active">
               <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
             </li>
-            <li class="page_link"><a href="./aboutMe.html">About Me</a></li>
-            <li class="page_link"><a href="./contact.html">Contact</a></li>
+            <li class="page_link"><a href="${meetMe}">Meet Me</a></li>
           </ul>
         </div>
         <div class="personal_logo_container">
@@ -77,6 +81,13 @@ const navHTML = `
                 href="https://www.instagram.com/chrismartinezdesign/"
                 target="_blank"
                 ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li class="icon_link">
+              <a
+                href="mailto: chrismartinezdesign@gmail.com"
+                target="_blank"
+                ><i class="fa-solid fa-envelope"></i
               ></a>
             </li>
           </ul>

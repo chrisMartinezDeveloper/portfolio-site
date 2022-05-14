@@ -55,6 +55,7 @@ p {
   padding: 0rem;
   display: flex;
   list-style-type: none;
+  margin-right: 1.65rem;
 }
 
 .page_link > a {
@@ -88,7 +89,7 @@ p {
 .icon_container > ul {
   display: flex;
   list-style-type: none;
-  margin-left: 4.2rem;
+  padding-left: 0rem;
 }
 
 .icon_link > a {
@@ -247,7 +248,7 @@ p {
 }
 
 .project_cover {
-  width: 33.1%;
+  width: 33.2%;
   height: auto;
   position: relative;
 }
