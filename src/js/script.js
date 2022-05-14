@@ -1,3 +1,100 @@
+import personalLogo from "../img/personal-logo.png";
+
+////////////
+// Add Nav
+const navContainer = document.querySelector(".nav_container");
+
+const navHTML = `
+  <div class="hamburger_menu_container hidden">
+        <div class="hamburger_menu">
+          <i class="fa-solid fa-bars"></i>
+          <ul class="menu hidden">
+            <li class="menu_item active">
+              <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
+            </li>
+            <li class="menu_item"><a href="./aboutMe.html">About Me</a></li>
+            <li class="menu_item"><a href="./contact.html">Contact</a></li>
+            <li class="menu_item icons">
+              <a href="https://github.com/ChrisMartinezDesign" target="_blank">
+                <i class="fa-brands fa-github menu_icon"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/chrismartinezdesign/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin-in menu_icon"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/chrismartinezdesign/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram menu_icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav">
+        <div class="page_link_container">
+          <ul>
+            <li class="page_link active">
+              <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
+            </li>
+            <li class="page_link"><a href="./aboutMe.html">About Me</a></li>
+            <li class="page_link"><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="personal_logo_container">
+          <a
+            href="https://chrismartinezportfolio.netlify.app/"
+            class="personal_logo_link"
+          >
+            <img
+              src="${personalLogo}"
+              alt="Personal Logo"
+              class="personal_logo"
+              width="300"
+              height="300"
+            />
+          </a>
+        </div>
+        <div class="icon_container">
+          <ul>
+            <li class="icon_link">
+              <a href="https://github.com/ChrisMartinezDesign" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li class="icon_link">
+              <a
+                href="https://www.linkedin.com/in/chrismartinezdesign/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="icon_link">
+              <a
+                href="https://www.instagram.com/chrismartinezdesign/"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+`;
+
+navContainer.insertAdjacentHTML("afterbegin", navHTML);
+
+//////////////
+// Add Footer
+const footerContainer = document.querySelector(".footer");
+const footerHTML = `
+<p class="copyright">&#169;Copyright by Chris Martinez Design 2022</p>
+`;
+
+footerContainer.insertAdjacentHTML("afterbegin", footerHTML);
+
 /////////////////////////////////////
 // Homepage - text overlay animation
 document.querySelectorAll(".project_cover").forEach((projectCover) => {
@@ -12,7 +109,6 @@ document.querySelectorAll(".project_cover").forEach((projectCover) => {
 
 //////////////////
 // Responsive nav
-const navContainer = document.querySelector(".nav_container");
 const pageLinkContainer = document.querySelector(".page_link_container");
 const iconContainer = document.querySelector(".icon_container");
 const hamburgerMenuContainer = document.querySelector(
