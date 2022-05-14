@@ -55,7 +55,7 @@ p {
   padding: 0rem;
   display: flex;
   list-style-type: none;
-  margin-right: 1.65rem;
+  margin-right: 5.35rem;
 }
 
 .page_link > a {
@@ -203,7 +203,7 @@ p {
 
 /**********/
 /* Header */
-.header {
+.header_container {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -211,13 +211,13 @@ p {
   padding: 7.3rem 0rem 2rem 0rem;
 }
 
-.header > h1 {
+.header {
   color: var(--color-gold);
   font-size: 2.6rem;
   margin: 1rem 0rem 0rem 0rem;
 }
 
-.header > p {
+.body_text {
   color: var(--color-gray);
   font-size: 0.9rem;
   font-weight: lighter;
@@ -331,8 +331,90 @@ p {
   }
 }
 
-/**********/
-/* Footer */
+/*****************/
+/* Project Pages */
+
+/*********/
+/* About */
+.header_container.about {
+  width: 100%;
+  height: 0.01%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 0rem;
+  margin-bottom: 0rem;
+}
+
+.bio_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.headshot {
+  aspect-ratio: attr(width) / attr(height);
+  width: 20rem;
+  height: auto;
+  border-radius: 0.7rem;
+}
+
+.text_container {
+  width: 30rem;
+  height: auto;
+  margin-left: 2.3rem;
+}
+
+.text_container > p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.footer.about {
+  align-self: flex-end;
+  margin-top: 24rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .bio_container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .text_container {
+    margin-left: 0rem;
+    margin-top: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .headshot {
+    width: 70%;
+    height: auto;
+    margin-top: 0.3rem;
+  }
+
+  .bio_container {
+    width: 100%;
+    height: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .text_container {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer.about {
+    margin-top: 10rem;
+  }
+}
+
+/**********/ /* Footer */
 .footer {
   width: 100%;
   height: auto;
