@@ -351,7 +351,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .headshot {
@@ -375,7 +375,7 @@ p {
 
 .footer.about {
   align-self: flex-end;
-  margin-top: 24rem;
+  margin-top: 20rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -414,7 +414,8 @@ p {
   }
 }
 
-/**********/ /* Footer */
+/**********/
+/* Footer */
 .footer {
   width: 100%;
   height: auto;

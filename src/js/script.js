@@ -3,6 +3,8 @@ import aboutPage from "../../about.html";
 
 ////////////
 // Add Nav
+console.log("TEST");
+
 const navContainer = document.querySelector(".nav_container");
 
 const navHTML = `
