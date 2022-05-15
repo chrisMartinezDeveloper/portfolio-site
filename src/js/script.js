@@ -13,7 +13,7 @@ const navHTML = `
             <li class="menu_item active">
               <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
             </li>
-            <li class="menu_item"><a href="https://chrismartinezportfolio.netlify.app/about.a108d827.html">About</a></li>
+            <li class="menu_item"><a href="${aboutPage}">About</a></li>
             <li class="menu_item icons">
               <a href="https://github.com/ChrisMartinezDesign" target="_blank">
                 <i class="fa-brands fa-github menu_icon"></i>
@@ -45,7 +45,7 @@ const navHTML = `
             <li class="page_link active">
               <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
             </li>
-            <li class="page_link"><a href="https://chrismartinezportfolio.netlify.app/about.a108d827.html">About</a></li>
+            <li class="page_link"><a href="${aboutPage}">About</a></li>
           </ul>
         </div>
         <div class="personal_logo_container">
