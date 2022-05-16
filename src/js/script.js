@@ -4,16 +4,21 @@ import aboutPage from "../../about.html";
 ////////////
 // Add Nav
 const navContainer = document.querySelector(".nav_container");
+const headerContainerCondition = document
+  .querySelector(".header_container")
+  .classList.contains("about");
 
+const workActiveAttribute = headerContainerCondition ? "" : "active";
+const aboutActiveAttribute = headerContainerCondition ? "active" : "";
 const navHTML = `
   <div class="hamburger_menu_container hidden">
         <div class="hamburger_menu">
           <i class="fa-solid fa-bars"></i>
           <ul class="menu hidden">
-            <li class="menu_item active">
+            <li class="menu_item ${workActiveAttribute}">
               <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
             </li>
-            <li class="menu_item"><a href="${aboutPage}">About</a></li>
+            <li class="menu_item ${aboutActiveAttribute}"><a href="${aboutPage}">About</a></li>
             <li class="menu_item icons">
               <a href="https://github.com/ChrisMartinezDesign" target="_blank">
                 <i class="fa-brands fa-github menu_icon"></i>
@@ -42,10 +47,10 @@ const navHTML = `
       <div class="nav">
         <div class="page_link_container">
           <ul>
-            <li class="page_link active">
+            <li class="page_link ${workActiveAttribute}">
               <a href="https://chrismartinezportfolio.netlify.app/">Work</a>
             </li>
-            <li class="page_link"><a href="${aboutPage}">About</a></li>
+            <li class="page_link ${aboutActiveAttribute}"><a href="${aboutPage}">About</a></li>
           </ul>
         </div>
         <div class="personal_logo_container">
