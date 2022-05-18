@@ -2,10 +2,10 @@
   "name": "personal-site",
   "version": "1.0.0",
   "description": "Portfolio site",
-  "default": "index.html",
+  "source": "mapty.html",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "start": "parcel mapty.html",
+    "build": "parcel build mapty.html --dist-dir ./dist"
   },
   "author": "Chris Martinez",
   "license": "ISC",

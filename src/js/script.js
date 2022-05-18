@@ -4,12 +4,16 @@ import aboutPage from "../../about.html";
 ////////////
 // Add Nav
 const navContainer = document.querySelector(".nav_container");
+console.log(document.querySelector(".header_container"));
 const headerContainerCondition = document
   .querySelector(".header_container")
   .classList.contains("about");
 
-const workActiveAttribute = headerContainerCondition ? "" : "active";
-const aboutActiveAttribute = headerContainerCondition ? "active" : "";
+let workActiveAttribute = headerContainerCondition ? "" : "active";
+let aboutActiveAttribute = headerContainerCondition ? "active" : "";
+if (document.querySelector(".text_container").classList.contains("project")) {
+  workActiveAttribute = aboutActiveAttribute = "";
+}
 const navHTML = `
   <div class="hamburger_menu_container hidden">
         <div class="hamburger_menu">
