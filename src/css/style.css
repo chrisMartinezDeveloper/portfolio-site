@@ -386,9 +386,10 @@ button {
   background-color: var(--color-offwhite);
   color: var(--color-gold);
   font-size: 1.3rem;
+  font-weight: 600;
   border-style: none;
   border-radius: 3rem;
-  padding: 0.5rem 1rem 0.5rem 1rem;
+  padding: 0.6rem 1.1rem 0.48rem 1.1rem;
   margin-top: 2rem;
 }
 
