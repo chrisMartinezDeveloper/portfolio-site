@@ -384,7 +384,7 @@ button {
 
 .visit_site_btn {
   background-color: var(--color-offwhite);
-  color: var(--color-gold);
+  color: #9f8d46;
   font-size: 1.3rem;
   font-weight: 600;
   border-style: none;
@@ -394,7 +394,7 @@ button {
 }
 
 .visit_site_btn:hover {
-  background-color: var(--color-gold);
+  background-color: #9f8d46;
   color: var(--color-offwhite);
 }
 
@@ -415,7 +415,7 @@ button {
 }
 
 .github_btn:hover {
-  background-color: var(--color-gold);
+  background-color: #9f8d46;
 }
 
 .item_container.flowchart > h2 {
