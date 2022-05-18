@@ -384,7 +384,7 @@ button {
 
 .visit_site_btn {
   background-color: var(--color-offwhite);
-  color: #917f38;
+  color: var(--color-charcoal);
   font-size: 1.3rem;
   font-weight: 600;
   border-style: none;
@@ -394,7 +394,7 @@ button {
 }
 
 .visit_site_btn:hover {
-  background-color: #917f38;
+  background-color: rgb(81, 81, 81);
   color: var(--color-offwhite);
 }
 
