@@ -384,7 +384,7 @@ button {
 
 .visit_site_btn {
   background-color: var(--color-offwhite);
-  color: #9f8d46;
+  color: #917f38;
   font-size: 1.3rem;
   font-weight: 600;
   border-style: none;
@@ -394,7 +394,7 @@ button {
 }
 
 .visit_site_btn:hover {
-  background-color: #9f8d46;
+  background-color: #917f38;
   color: var(--color-offwhite);
 }
 
@@ -411,11 +411,11 @@ button {
   font-size: 2rem;
   border-style: none;
   border-radius: 3rem;
-  padding: 0.4rem 0.55rem 0.3rem 0.55rem;
+  padding: 0.35rem 0.55rem 0.3rem 0.55rem;
 }
 
 .github_btn:hover {
-  background-color: #9f8d46;
+  background-color: #917f38;
 }
 
 .item_container.flowchart > h2 {
