@@ -11,9 +11,11 @@ const headerContainerCondition = document
 
 let workActiveAttribute = headerContainerCondition ? "" : "active";
 let aboutActiveAttribute = headerContainerCondition ? "active" : "";
-if (document.querySelector(".text_container").classList.contains("project")) {
+console.log(workActiveAttribute, aboutActiveAttribute);
+if (document.querySelector(".text_container.project")) {
   workActiveAttribute = aboutActiveAttribute = "";
 }
+
 const navHTML = `
   <div class="hamburger_menu_container hidden">
         <div class="hamburger_menu">
