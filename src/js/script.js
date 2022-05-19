@@ -4,14 +4,12 @@ import aboutPage from "../../about.html";
 ////////////
 // Add Nav
 const navContainer = document.querySelector(".nav_container");
-console.log(document.querySelector(".header_container"));
 const headerContainerCondition = document
   .querySelector(".header_container")
   .classList.contains("about");
 
 let workActiveAttribute = headerContainerCondition ? "" : "active";
 let aboutActiveAttribute = headerContainerCondition ? "active" : "";
-console.log(workActiveAttribute, aboutActiveAttribute);
 if (document.querySelector(".text_container.project")) {
   workActiveAttribute = aboutActiveAttribute = "";
 }
@@ -178,11 +176,11 @@ hamburgerIcon.addEventListener("click", function () {
   // Adjust nav container height for the hamburger menu
   navContainer.style.height = menu.classList.contains("hidden")
     ? ""
-    : "14.2rem";
+    : "12.5rem";
 
   if (window.innerWidth <= 500) {
     navContainer.style.height = menu.classList.contains("hidden")
       ? ""
-      : "21.5rem";
+      : "20rem";
   }
 });
