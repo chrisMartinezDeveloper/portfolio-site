@@ -51,7 +51,7 @@ button {
   justify-content: space-between;
   padding-top: 1.3rem;
   padding-right: 4.3rem;
-  padding: 1.3rem 3.59rem 0.8rem 3.59rem;
+  padding: 1.3rem 4.7rem 0.8rem 4.55rem;
 }
 
 .page_link_container > ul {
@@ -571,9 +571,14 @@ button {
   margin-bottom: 0rem;
 }
 
+.headshot_container {
+  width: 19.5rem;
+  height: auto;
+}
+
 .headshot {
   aspect-ratio: attr(width) / attr(height);
-  width: 20rem;
+  width: 100%;
   height: auto;
   border-radius: 0.7rem;
 }
@@ -608,10 +613,10 @@ button {
 }
 
 @media screen and (max-width: 580px) {
-  .headshot {
-    width: 70%;
+  .headshot_container {
+    align-self: center;
+    width: 83%;
     height: auto;
-    margin-top: 0.3rem;
   }
 
   .bio_container {

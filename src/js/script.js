@@ -181,6 +181,6 @@ hamburgerIcon.addEventListener("click", function () {
   if (window.innerWidth <= 500) {
     navContainer.style.height = menu.classList.contains("hidden")
       ? ""
-      : "20rem";
+      : "18.8rem";
   }
 });
