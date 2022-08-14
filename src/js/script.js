@@ -114,7 +114,7 @@ navContainer.insertAdjacentHTML("afterbegin", navHTML);
 // Add Footer
 const footerContainer = document.querySelector(".footer");
 const footerHTML = `
-<p class="copyright">&#169;Copyright Chris Martinez Design 2022</p>
+<p class="copyright">&#169;Copyright Chris Martinez Developer 2022</p>
 `;
 
 footerContainer.insertAdjacentHTML("afterbegin", footerHTML);

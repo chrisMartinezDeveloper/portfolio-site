@@ -47,8 +47,9 @@ button {
 }
 
 .nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  /* justify-content: space-between; */
+  grid-template-columns: 33.3% 33.3% 33.3%;
   padding-top: 1.3rem;
   padding-right: 4.3rem;
   padding: 1.3rem 3.7rem 0.8rem 3.7rem;
@@ -58,7 +59,7 @@ button {
   padding: 0rem;
   display: flex;
   list-style-type: none;
-  margin-right: 5.35rem;
+  margin-right: 0rem;
 }
 
 .page_link > a {
@@ -81,12 +82,18 @@ button {
 .personal_logo_container {
   width: 3.6rem;
   height: 3.6rem;
+  justify-self: center;
 }
 
 .personal_logo {
   aspect-ratio: attr(width) / attr(height);
   width: 100%;
   height: auto;
+}
+
+.icon_container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .icon_container > ul {
@@ -201,6 +208,10 @@ button {
     height: auto;
     padding: 1.3rem 0rem 0.8rem 0rem;
     justify-content: center;
+  }
+
+  .personal_logo_container {
+    grid-column: 2;
   }
 }
 
