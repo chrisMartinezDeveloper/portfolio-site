@@ -40,7 +40,7 @@ const navHTML = `
                 <i class="fa-brands fa-instagram menu_icon"></i>
               </a>
               <a
-                href="mailto: chrismartinezdesign@gmail.com"
+                href="mailto: chrismartinezdeveloper@gmail.com"
                 target="_blank"
                 ><i class="fa-solid fa-envelope menu_icon"></i
               ></a>
@@ -94,7 +94,7 @@ const navHTML = `
             </li>
             <li class="icon_link">
               <a
-                href="mailto: chrismartinezdesign@gmail.com"
+                href="mailto: chrismartinezdeveloper@gmail.com"
                 target="_blank"
                 ><i class="fa-solid fa-envelope"></i
               ></a>
@@ -110,7 +110,7 @@ navContainer.insertAdjacentHTML("afterbegin", navHTML);
 // Add Footer
 const footerContainer = document.querySelector(".footer");
 const footerHTML = `
-<p class="copyright">&#169;Copyright by Chris Martinez Design 2022</p>
+<p class="copyright">&#169;Copyright Chris Martinez Design 2022</p>
 `;
 
 footerContainer.insertAdjacentHTML("afterbegin", footerHTML);
