@@ -33,12 +33,14 @@ const navHTML = `
               >
                 <i class="fa-brands fa-linkedin-in menu_icon"></i>
               </a>
+              <!--
               <a
                 href="https://www.instagram.com/chrismartinezdesign/"
                 target="_blank"
               >
                 <i class="fa-brands fa-instagram menu_icon"></i>
               </a>
+              -->
               <a
                 href="mailto: chrismartinezdeveloper@gmail.com"
                 target="_blank"
@@ -85,6 +87,7 @@ const navHTML = `
                 ><i class="fa-brands fa-linkedin-in"></i
               ></a>
             </li>
+            <!--
             <li class="icon_link">
               <a
                 href="https://www.instagram.com/chrismartinezdesign/"
@@ -92,6 +95,7 @@ const navHTML = `
                 ><i class="fa-brands fa-instagram"></i
               ></a>
             </li>
+            -->
             <li class="icon_link">
               <a
                 href="mailto: chrismartinezdeveloper@gmail.com"
