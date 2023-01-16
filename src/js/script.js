@@ -114,12 +114,12 @@ navContainer.insertAdjacentHTML("afterbegin", navHTML);
 // Add Footer
 const footerContainer = document.querySelector(".footer");
 const footerHTML = `
-<p class="copyright">&#169;Copyright Chris Martinez Developer 2022</p>
+<p class="copyright">&#169;Copyright Chris Martinez Developer 2023</p>
 `;
 
 footerContainer.insertAdjacentHTML("afterbegin", footerHTML);
 
-/////////////////////////////////////
+/*////////////////////////////////////*/
 // Homepage - text overlay animation
 document.querySelectorAll(".project_cover").forEach((projectCover) => {
   ["mouseover", "mouseout"].forEach((event) => {

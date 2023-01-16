@@ -1,7 +1,7 @@
 :root {
-  --color-gold: #ac9b56;
+  --color-gold: #b8a661;
   --color-offwhite: #fffafa;
-  --color-charcoal: #0c0c0c;
+  --color-charcoal: #1a191b;
   --color-gray: #b8b8b8;
   --color-darkgray: #515151;
 }
@@ -37,11 +37,11 @@ button {
   top: 0;
   left: 0;
   background: linear-gradient(
-    rgba(12, 12, 12, 1),
-    rgba(12, 12, 12, 0.96),
-    rgba(12, 12, 12, 0.89)
+    rgba(26, 25, 27, 1),
+    rgba(26, 25, 27, 0.96),
+    rgba(26, 25, 27, 0.89)
   );
-  box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(12, 12, 12, 1);
+  box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(26, 25, 27, 1);
   z-index: 2;
   padding-bottom: 0.1rem;
 }
@@ -278,7 +278,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(12, 12, 12, 0.95);
+  background-color: rgba(26, 25, 27, 0.95);
 }
 
 .text_cover_overlay > h1 {
