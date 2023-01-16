@@ -42,7 +42,7 @@ const navHTML = `
               </a>
               -->
               <a
-                href="mailto: chrismartinezdeveloper@gmail.com"
+                href="mailto: chrismartinezdesign@gmail.com"
                 target="_blank"
                 ><i class="fa-solid fa-envelope menu_icon"></i
               ></a>
@@ -98,7 +98,7 @@ const navHTML = `
             -->
             <li class="icon_link">
               <a
-                href="mailto: chrismartinezdeveloper@gmail.com"
+                href="mailto: chrismartinezdesign@gmail.com"
                 target="_blank"
                 ><i class="fa-solid fa-envelope"></i
               ></a>
