@@ -19,7 +19,7 @@ h2,
 a,
 p,
 button {
-  font-family: "radio canada", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 @media screen and (max-width: 500px) {
@@ -41,6 +41,7 @@ button {
     rgba(26, 25, 27, 0.96),
     rgba(26, 25, 27, 0.89)
   );
+  /* filter: blur(1.5rem); */
   box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(26, 25, 27, 1);
   z-index: 2;
   padding-bottom: 0.1rem;
@@ -224,14 +225,17 @@ button {
 .header {
   color: var(--color-gold);
   font-size: 2.6rem;
-  margin: 1rem 0rem 0rem 0rem;
+  font-weight: 700;
+  letter-spacing: 0.08rem;
+  margin: 3rem 0rem 0rem 0rem;
 }
 
 .body_text {
   color: var(--color-gray);
-  font-size: 0.9rem;
-  font-weight: lighter;
-  margin: 0.2rem 0rem 0rem 0rem;
+  font-size: 0.95rem;
+  font-weight: 300;
+  letter-spacing: 0.04rem;
+  margin: 0.4rem 0rem 2rem 0rem;
 }
 
 @media screen and (max-width: 500px) {
@@ -290,8 +294,8 @@ button {
 .text_cover_overlay > p {
   color: var(--color-gray);
   font-size: 1.6vw;
-  font-weight: lighter;
-  margin-top: 0.5rem;
+  font-weight: 300;
+  margin-top: 0.3rem;
 }
 
 .hidden {
