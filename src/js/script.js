@@ -50,8 +50,10 @@ const navHTML = `
               <a
                 href="mailto: chrismartinezdesign@gmail.com"
                 target="_blank"
-                ><i class="fa-solid fa-envelope menu_icon"></i
-              ></a>
+                aria-label="Email"
+              >
+                <i class="fa-solid fa-envelope menu_icon"></i>
+              </a>
             </li>
           </ul>
         </div>
@@ -114,8 +116,10 @@ const navHTML = `
               <a
                 href="mailto: chrismartinezdesign@gmail.com"
                 target="_blank"
-                ><i class="fa-solid fa-envelope"></i
-              ></a>
+                aria-label="Email"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
             </li>
           </ul>
         </div>
