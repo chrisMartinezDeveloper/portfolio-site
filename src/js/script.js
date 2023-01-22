@@ -24,12 +24,17 @@ const navHTML = `
             </li>
             <li class="menu_item ${aboutActiveAttribute}"><a href="${aboutPage}">About</a></li>
             <li class="menu_item icons">
-              <a href="https://github.com/chrisMartinezDeveloper" target="_blank">
+              <a 
+                href="https://github.com/chrisMartinezDeveloper" 
+                target="_blank"
+                aria-label="GitHub"
+              >
                 <i class="fa-brands fa-github menu_icon"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/chrismartinezdesign/"
                 target="_blank"
+                aria-label="LinkedIn"
               >
                 <i class="fa-brands fa-linkedin-in menu_icon"></i>
               </a>
@@ -37,6 +42,7 @@ const navHTML = `
               <a
                 href="https://www.instagram.com/chrismartinezdesign/"
                 target="_blank"
+                aria-label="Instagram"
               >
                 <i class="fa-brands fa-instagram menu_icon"></i>
               </a>
@@ -76,24 +82,32 @@ const navHTML = `
         <div class="icon_container">
           <ul>
             <li class="icon_link">
-              <a href="https://github.com/chrisMartinezDeveloper" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
+              <a 
+                href="https://github.com/chrisMartinezDeveloper" 
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
             </li>
             <li class="icon_link">
               <a
                 href="https://www.linkedin.com/in/chrismartinezdesign/"
                 target="_blank"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
             </li>
             <!--
             <li class="icon_link">
               <a
                 href="https://www.instagram.com/chrismartinezdesign/"
                 target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
+                aria-label="Instagram"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
             </li>
             -->
             <li class="icon_link">
