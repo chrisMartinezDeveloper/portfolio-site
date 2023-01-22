@@ -18,6 +18,7 @@ h1,
 h2,
 a,
 p,
+li,
 button {
   font-family: "Lato", sans-serif;
 }
@@ -362,6 +363,18 @@ button {
 
 .text_container.project > p {
   margin-bottom: 0.4rem;
+}
+
+.text_container.project > ul {
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+
+.body_list > li {
+  margin-bottom: 0.45rem;
+  color: var(--color-gray);
+  font-weight: 300;
 }
 
 .work_container {
