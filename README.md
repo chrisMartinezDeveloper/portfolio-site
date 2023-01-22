@@ -1,3 +1,3 @@
 # Portfolio Site
 
-Personal portfolio of work
+A custom HTML/CSS/JavaScript build with perfect Lighthouse scoring
