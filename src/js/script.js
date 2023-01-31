@@ -25,7 +25,7 @@ const navHTML = `
             <li class="menu_item ${aboutActiveAttribute}"><a href="${aboutPage}">About</a></li>
             <li class="menu_item icons">
               <a 
-                href="https://github.com/chrisMartinezDeveloper" 
+                href="https://github.com/chrisMartinezDeveloper/portfolio-site" 
                 target="_blank"
                 aria-label="GitHub"
               >
@@ -85,7 +85,7 @@ const navHTML = `
           <ul>
             <li class="icon_link">
               <a 
-                href="https://github.com/chrisMartinezDeveloper" 
+                href="https://github.com/chrisMartinezDeveloper/portfolio-site" 
                 target="_blank"
                 aria-label="GitHub"
               >
