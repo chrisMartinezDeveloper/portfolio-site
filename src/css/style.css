@@ -356,8 +356,12 @@ button {
   margin: 0.45rem 0rem 0rem 0rem;
 }
 
+.header_container.project {
+  width: 100%;
+}
+
 .text_container.project {
-  width: 35%;
+  width: 100%;
   margin: 0.4rem 0rem 0rem 0rem;
 }
 
@@ -366,9 +370,8 @@ button {
 }
 
 .text_container.project > ul {
-  margin-left: 0px;
-  padding-left: 0px;
-  list-style-position: inside;
+  padding-left: 1rem;
+  list-style-position: outside;
 }
 
 .body_list > li {
@@ -506,10 +509,6 @@ button {
 }
 
 @media screen and (max-width: 1100px) {
-  .text_container.project {
-    width: 45%;
-  }
-
   .img_container {
     width: 55%;
   }
@@ -520,10 +519,6 @@ button {
 }
 
 @media screen and (max-width: 800px) {
-  .text_container.project {
-    width: 55%;
-  }
-
   .item_container > h2 {
     align-self: center;
   }
@@ -538,10 +533,6 @@ button {
 @media screen and (max-width: 650px) {
   .work_container {
     margin-top: 1rem;
-  }
-
-  .text_container.project {
-    width: 100%;
   }
 
   .item_container {
