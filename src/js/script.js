@@ -48,7 +48,7 @@ const navHTML = `
               </a>
               -->
               <a
-                href="mailto: chrismartinezdesign@gmail.com"
+                href="mailto: chrismartinezdeveloper@gmail.com"
                 target="_blank"
                 aria-label="Email"
               >
@@ -114,7 +114,7 @@ const navHTML = `
             -->
             <li class="icon_link">
               <a
-                href="mailto: chrismartinezdesign@gmail.com"
+                href="mailto: chrismartinezdeveloper@gmail.com"
                 target="_blank"
                 aria-label="Email"
               >

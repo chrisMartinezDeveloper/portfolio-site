@@ -1,14 +1,14 @@
 :root {
   --color-gold: #b8a661;
   --color-offwhite: #fffafa;
-  --color-charcoal: #1a191b;
+  --color-navy: #00072d;
   --color-gray: #b8b8b8;
   --color-darkgray: #515151;
 }
 
 body {
   /* position: relative; */
-  background-color: var(--color-charcoal);
+  background-color: var(--color-navy);
   display: flex;
   flex-wrap: wrap;
   padding: 0vw 3.2vw 3.5vw 3.3vw;
@@ -38,12 +38,12 @@ button {
   top: 0;
   left: 0;
   background: linear-gradient(
-    rgba(26, 25, 27, 1),
-    rgba(26, 25, 27, 0.96),
-    rgba(26, 25, 27, 0.89)
+    rgba(0, 4, 23, 93),
+    rgba(0, 6, 34, 0.94),
+    rgba(0, 7, 45, 0.81)
   );
   /* filter: blur(1.5rem); */
-  box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(26, 25, 27, 1);
+  box-shadow: 0rem 0.4rem 2.8rem 0.4rem rgba(0, 7, 45, 1);
   z-index: 2;
   padding-bottom: 0.1rem;
 }
@@ -228,7 +228,7 @@ button {
   font-size: 2.6rem;
   font-weight: 700;
   letter-spacing: 0.08rem;
-  margin: 3rem 0rem 0rem 0rem;
+  margin: 3.3rem 0rem 0rem 0rem;
 }
 
 .body_text {
@@ -236,16 +236,16 @@ button {
   font-size: 0.95rem;
   font-weight: 300;
   letter-spacing: 0.04rem;
-  margin: 0.4rem 0rem 2rem 0rem;
+  margin: 0.3rem 0rem 2.3rem 0rem;
 }
 
 @media screen and (max-width: 500px) {
-  .header > h1 {
-    font-size: 2.1rem;
+  .header_container > h1 {
+    font-size: 2.5rem;
   }
 
-  .header > p {
-    font-size: 1.05rem;
+  .header_container > p {
+    font-size: 0.95rem;
     width: 90%;
     height: auto;
   }
@@ -283,7 +283,7 @@ button {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(26, 25, 27, 0.95);
+  background-color: rgba(0, 7, 45, 0.9);
 }
 
 .text_cover_overlay > h1 {
@@ -405,7 +405,7 @@ button {
 
 .visit_site_btn {
   background-color: var(--color-offwhite);
-  color: var(--color-charcoal);
+  color: var(--color-navy);
   font-size: 1.3rem;
   font-weight: 600;
   border-style: none;
