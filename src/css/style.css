@@ -239,13 +239,23 @@ button {
 
 @media screen and (max-width: 500px) {
   .header_container > h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .header_container > p {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     width: 90%;
     height: auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header_container > h1 {
+    font-size: 1.7rem;
+  }
+
+  .header_container > p {
+    font-size: 0.8rem;
   }
 }
 
