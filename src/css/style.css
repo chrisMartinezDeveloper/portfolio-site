@@ -458,6 +458,10 @@ button {
   margin-bottom: 0rem;
 }
 
+.title.github {
+  margin-bottom: 1.8rem;
+}
+
 .github_btn {
   background-color: var(--color-darkgray);
   color: var(--color-offwhite);
