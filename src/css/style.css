@@ -364,6 +364,7 @@ button {
 }
 
 .text_container.project > p {
+  width: 35%;
   margin-bottom: 0.4rem;
 }
 
@@ -507,6 +508,10 @@ button {
 }
 
 @media screen and (max-width: 1100px) {
+  .text_container.project > p {
+    width: 45%;
+  }
+
   .img_container {
     width: 55%;
   }
@@ -517,6 +522,10 @@ button {
 }
 
 @media screen and (max-width: 800px) {
+  .text_container.project > p {
+    width: 65%;
+  }
+
   .item_container > h2 {
     align-self: center;
   }
@@ -529,6 +538,10 @@ button {
 }
 
 @media screen and (max-width: 650px) {
+  .text_container.project > p {
+    width: 100%;
+  }
+
   .work_container {
     margin-top: 1rem;
   }
