@@ -52,8 +52,6 @@ button {
   display: grid;
   /* justify-content: space-between; */
   grid-template-columns: 33.3% 33.3% 33.3%;
-  padding-top: 1.3rem;
-  padding-right: 4.3rem;
   padding: 1.3rem 3.7rem 0.8rem 3.7rem;
 }
 
