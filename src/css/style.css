@@ -429,6 +429,7 @@ button {
 .visit_site_btn:hover {
   background-color: var(--color-darkgray);
   color: var(--color-offwhite);
+  cursor: pointer;
 }
 
 .visit_site_btn.brm {
@@ -473,6 +474,7 @@ button {
 
 .github_btn:hover {
   background-color: #917f38;
+  cursor: pointer;
 }
 
 .item_container.flowchart > h2 {
